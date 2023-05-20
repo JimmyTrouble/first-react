@@ -1,11 +1,14 @@
 // Home.js
 import React from 'react';
 import '../App.css'
+import ImageSlider from './ImageSlider';
+import { SliderData } from './SliderData';
 
 function Home() {
     return <div className='home'>
             
-           <span><h1>Home Page</h1></span>
+           <h1>Home Page</h1>
+           <ImageSlider slides={SliderData}/>
             
            </div>
 }
