@@ -1,16 +1,30 @@
 
 
 h1{
-  font-size: 200px;
+  font-size: 50px;
   margin: 0;
   padding: 0;
 }
 
+
 .home{
+  margin: 0;
+  padding: 0;
   background-image: url('https://images.unsplash.com/photo-1525974160448-038dacadcc71?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2274&q=80');
   background-size: cover;
   background-position: center;
   height: 100vh;
+}
+.app {
+  padding-top: 0px; /* Adjust this value according to your navbar height */
+}
+.navbar li{
+  display: inline-block;
+    padding-right: 10px;
+    margin: 0;
+}
+.navbar {
+  position: sticky;
 }
 
 .home h1{
@@ -27,17 +41,22 @@ h1{
   color: green;
   
 }
+.navbar ul{
+  margin: 0;
+  padding-left: 0;
+}
 
 .slider{
+
   position: relative;
-  height: 100vh;
-  display: flex;
+  height: 100px;
+  display: inline-block;
   justify-content: center;
   align-items: center;
 }
 .image{
- width: 1000px;
- height: 600px;
+ width: 500px;
+ height: 300px;
  border-radius: 10px;
 }
 

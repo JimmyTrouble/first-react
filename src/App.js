@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router,  Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Home from './components/Home';
 import Contact from './components/Contact';
@@ -10,13 +10,13 @@ import ImageSlider from './components/ImageSlider';
 function App() {
   return (
     <Router>
-      <div>
-        <Navbar />
+      <Navbar />
+      <div className="app">
         <Routes>
-        <Route path="/" exact element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/about" element={<About />} />
-        </Routes>     
+        </Routes>
       </div>
     </Router>
   );
