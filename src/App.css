@@ -41,9 +41,10 @@ h1{
 }
 .homeP{
   
-  
+  display: inline-block;
    padding-top: 40vh; /* Adjust this value to position it just below .slider */
-  font-size: 15px;
+  
+   font-size: 15px;
     color: wheat;
     width: 50%;
     
@@ -103,12 +104,11 @@ h1{
   opacity: 1;
 }
 .left-arrow{
-  position: absolute;
-  left: 1rem;
-  opacity: 0.5;
-  text-align: center;
+  
   font-size: 3rem;
+  top: 100px;
   color: white;
+  opacity: 0.5;
   cursor: pointer;
   z-index: 10;
   user-select: none;
